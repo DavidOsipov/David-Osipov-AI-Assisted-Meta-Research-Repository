@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f
 
       - name: Set up Python
-        uses: actions/setup-python@6ed2c67c8abe7646815dbd50364eea862d396fd9
+        uses: actions/setup-python@5db1cf9a59fb97c40a68accab29236f0da7e94db
         with:
           python-version: '3.13'
           cache: 'pip'
