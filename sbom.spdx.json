@@ -6,42 +6,70 @@
     "creators": [
       "Tool: sbom4files-0.4.5"
     ],
-    "created": "2025-04-17T20:45:48Z",
+    "created": "2025-06-09T13:38:39Z",
     "licenseListVersion": "3.25"
   },
   "name": "DavidOsipov/David-Osipov-AI-Assisted-Meta-Research-Repository",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "http://spdx.org/spdxdocs/DavidOsipov/David-Osipov-AI-Assisted-Meta-Research-Repository-e6fb5223-cc92-4273-a56a-46a958e9ed1d",
+  "documentNamespace": "http://spdx.org/spdxdocs/DavidOsipov/David-Osipov-AI-Assisted-Meta-Research-Repository-03d77f72-2027-4184-8933-d93ee41863b9",
   "files": [
     {
-      "SPDXID": "SPDXRef-File-1-LICENSE",
-      "fileName": "./LICENSE",
-      "copyrightText": "and Similar",
-      "licenseConcluded": "CC0-1.0",
+      "SPDXID": "SPDXRef-File-1-renovate",
+      "fileName": "./renovate.json",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
       "fileTypes": [
-        "TEXT"
+        "APPLICATION"
       ],
       "licenseInfoInFiles": [
-        "CC0-1.0"
+        "NOASSERTION"
       ],
-      "licenseComments": "This information was automatically extracted from the file.",
+      "licenseComments": "Unable to determine license from the file.",
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "ee99a29ebee1ab5a9d700f33b84dccfbbfe0da20"
+          "checksumValue": "3e77ea496cd29152848c7623b177b4a4df1c1001"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "c935f4018f3fb36864a5a447ff5615db8aae1843eb4b6655ce514f60a79c0134"
+          "checksumValue": "173e3c711319403f415acba170bdbde545d67ee5c87b5dfa637d1ff8d4a4bd68"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "4f7f6a2e46142e7a92c80c2b0cb3e99712769742ecf802396735f1a4e05d78b6520794e65a7d53647e1a8cba6bd306f297e0db32677ebef7a94a5fe339f1a261"
+          "checksumValue": "5a13b3f474e61ee20b449f8b8494c58411f6613abdbf3e070bd9888cdf72405a219591836357254efc88b312115f470a86b2065db65209de2eb1d0c25af54c9d"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-2-README",
+      "SPDXID": "SPDXRef-File-2-sbom.spdx",
+      "fileName": "./sbom.spdx.json",
+      "copyrightText": "2025 David Osipov  <personal@david-osipov.vision> (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)\",",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "SPDX",
+        "APPLICATION"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "51aa25ade501263bf238ac838ccacbeb926bf233"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9f79fa18a9e8cca595222db3c1f74fd93e239f92bda047b5efae316414d31445"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "c35e755d61658734a406858dc1149d1376a987e61dfdfbdd6031bb3b29928298367811f720ec530d2a18b8fe56477d47b20c681367ddd877bf025e4e546b3d44"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-3-README",
       "fileName": "./README.md",
       "copyrightText": "Copyright  2025 David Osipov  <personal@david-osipov.vision> (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)",
       "licenseConcluded": "CC-BY-4.0",
@@ -69,7 +97,34 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-3-requirements",
+      "SPDXID": "SPDXRef-File-4-LICENSE",
+      "fileName": "./LICENSE",
+      "copyrightText": "and Similar",
+      "licenseConcluded": "CC0-1.0",
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "CC0-1.0"
+      ],
+      "licenseComments": "This information was automatically extracted from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ee99a29ebee1ab5a9d700f33b84dccfbbfe0da20"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c935f4018f3fb36864a5a447ff5615db8aae1843eb4b6655ce514f60a79c0134"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "4f7f6a2e46142e7a92c80c2b0cb3e99712769742ecf802396735f1a4e05d78b6520794e65a7d53647e1a8cba6bd306f297e0db32677ebef7a94a5fe339f1a261"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-5-requirements",
       "fileName": "./requirements.txt",
       "copyrightText": "Copyright  2025 David Osipov <personal@david-osipov.vision> (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)",
       "licenseConcluded": "CC0-1.0",
@@ -96,63 +151,8 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-4-sbom.spdx",
-      "fileName": "./sbom.spdx.json",
-      "copyrightText": "2025 David Osipov  <personal@david-osipov.vision> (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)\",",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "SPDX",
-        "APPLICATION"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "c7b0dbe8299344481b1c5a3c37859719f59e5207"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "c88f6bd21a2a3ae33d2eb4a2f50c8ee7006f37633e09835757c466ed83996252"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "81486070877872af54417a83c5ea0572bc55fabde8917e131bc585cdb6551a440565b4e847a10f46697de49104c36740d3ec3c300880bce18d33ee17c6127e7a"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-5-renovate",
-      "fileName": "./renovate.json",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "APPLICATION"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "3e77ea496cd29152848c7623b177b4a4df1c1001"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "173e3c711319403f415acba170bdbde545d67ee5c87b5dfa637d1ff8d4a4bd68"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "5a13b3f474e61ee20b449f8b8494c58411f6613abdbf3e070bd9888cdf72405a219591836357254efc88b312115f470a86b2065db65209de2eb1d0c25af54c9d"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-6-config",
-      "fileName": "./.git/config",
+      "SPDXID": "SPDXRef-File-6-description",
+      "fileName": "./.git/description",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
@@ -165,15 +165,15 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "b91d98e5e7cb7ec24ef6bf2107ecf75e74ac4d79"
+          "checksumValue": "9635f1b7e12c045212819dd934d809ef07efa2f4"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "f01c1676ef8c5eeab0918f7a7d57096e767c47a828966376005829e5f443d6c4"
+          "checksumValue": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "1e7018c7fecae15315eedd6899ed78eb9c4a3568a31b6127f31b484d5ea8f1f3328b9508e415a4563b6ab1226874b5be24a08dfa0bb54c5ec0219211ac63b40e"
+          "checksumValue": "f7e152f75b124c3e1c5d12f00427729d9eec4e2c1bf70d7606440a6600d003367eb178331e75ab976a61496e79c2c822020849d28ffd170946397b934611b471"
         }
       ]
     },
@@ -205,8 +205,8 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-8-.git-FETCH-HEAD",
-      "fileName": "./.git/FETCH_HEAD",
+      "SPDXID": "SPDXRef-File-8-config",
+      "fileName": "./.git/config",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
@@ -219,74 +219,20 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "f294706ac4bf786dc05b5e9b9be2abc3deaf44fe"
+          "checksumValue": "d47376f6f8d36d575198bce4dd8d9a6c5e6cb2bf"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "e094e2685965eac8e6aa5b4053da590408ef8fe52461f3dbdc5778230d894da7"
+          "checksumValue": "f2d0bd258b0f6f947f3b0d5399f1e9ab115fecf5cc89b55da16998f4eaf9e567"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "6fa95973be5d78969b23203292c18d6a43a29ceab22c9f01e34642004f67a4496140d565fac87fcf5e5d2254d06394812b4b0505bb9686006aebcc6164a747f9"
+          "checksumValue": "d00c80c5fae1f76968052463e1b486284a012c03b01755fbec1c9582f6d8d7e756027830415606ba0fcb22e132ce8a889a40c10d1be90d90a25e6e9f442dc9b0"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-9-description",
-      "fileName": "./.git/description",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "TEXT"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "9635f1b7e12c045212819dd934d809ef07efa2f4"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "f7e152f75b124c3e1c5d12f00427729d9eec4e2c1bf70d7606440a6600d003367eb178331e75ab976a61496e79c2c822020849d28ffd170946397b934611b471"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-10-index",
-      "fileName": "./.git/index",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "APPLICATION"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "674d44bce1c6c72bca57e2c7841d5278e7b55f78"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "ec353df96658933e85b0d1731b4de218dbcae95f45b55ab4b9f08d59f8d83254"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "88e41857b9e1462d5f584b070f22656db1f618d837fadb647e45168ac9206875e738f183cd8c0382a59971e8ba057b02e4c43f2af6dbcfd62ae69e4c4b96d62d"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-11-shallow",
+      "SPDXID": "SPDXRef-File-9-shallow",
       "fileName": "./.git/shallow",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -300,20 +246,20 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "fcb5d82549de11232e02c5c77f8ac5aa790c2441"
+          "checksumValue": "2baadcd8920970e9c6b526153483b088023d41c7"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "7ee245013ef7cfc78acd9f7f578d236fc9d5e3305599f10ad4cf4c9223a534e0"
+          "checksumValue": "314d396e6e704c6f17e95da712c958ab3f28a1665c5cc19501ad63c8cfb1b904"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "83d5505f58201e1c1ce8ad80bc083067482eabb652c65bfd90d374cb4fdf4edf41503193c990b8859979801944dc5331ae457214b33e2cd099cc5c22745c4bb0"
+          "checksumValue": "d13e7dd433340235d256d7e32c20b7552eb68d00d60598f64c805168bfeef55caca008a6b76f3520ab8d6ffdbb711af00f98aa5825ccfb94d078a6550ec2693e"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-12-HEAD",
+      "SPDXID": "SPDXRef-File-10-HEAD",
       "fileName": "./.git/HEAD",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -336,6 +282,60 @@
         {
           "algorithm": "SHA512",
           "checksumValue": "8bc9f17f0628c3ce935ddac3d15cd482a756797f19287a4a5b96e0e3cf37cf90c421949b2e82d65714b274c8b455ac522d88123be83ee2efd85eac5fba94ca80"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-11-index",
+      "fileName": "./.git/index",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "90e3af1abf539161a8b9f4531d9e2bf29d60e586"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "78ccb52557530ad9e96ac0c364cf490f408f4e042675c898eb80cb9625001654"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "c0f02272f028a87e62f30d35c2ecabe883c5963b6380aa0295c379e17f3c2104fbf7d5c324e4935a7ce63a61de6b109e378236b033b01597866f179a02a84453"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-12-.git-FETCH-HEAD",
+      "fileName": "./.git/FETCH_HEAD",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dbd1155f76d9a16f182aa0b9f5f910309b56790e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "93c23bced8e33e7c6a07439f90ad5968d75beac9d1e864f00c2d6d603eba6df8"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "8f57e1897cc29db0d1d157ac4f21d6c147c337c649d03cc35994d7098d393dedbcfec8ce2a50dd511546d933c52bae45b5fa9973a446d316f361415943e5a895"
         }
       ]
     },
@@ -368,88 +368,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-14-sbom-verify",
-      "fileName": "./.github/workflows/sbom-verify.yml",
-      "copyrightText": "Copyright  2025 David Osipov  <personal@david-osipov.vision> (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)",
-      "licenseConcluded": "GPL-3.0-or-later",
-      "fileTypes": [
-        "TEXT"
-      ],
-      "licenseInfoInFiles": [
-        "GPL-3.0-or-later"
-      ],
-      "licenseComments": "This information was automatically extracted from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "96d96f80e610b1641baa5edec3c87ecd888e71eb"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "a78d853de873dd7d7b935477e360ad96f864f288d693216e85089d15b01bc53b"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "b3e93bf67261d95acc6868713daa7f8ed6f5b148980923b98c3339ae47cd8c6c9c030a36dc830baa0c1d1facde3bb6adb2576e306320819013510551e2e1e9e9"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-15-sbom-generator",
-      "fileName": "./.github/workflows/sbom-generator.yml",
-      "copyrightText": "Copyright  2025 David Osipov  <personal@david-osipov.vision> (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)",
-      "licenseConcluded": "GPL-3.0-or-later",
-      "fileTypes": [
-        "TEXT"
-      ],
-      "licenseInfoInFiles": [
-        "GPL-3.0-or-later"
-      ],
-      "licenseComments": "This information was automatically extracted from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "5c325790bd870ff2b30740b921f57b69c4129aab"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "3f18af24f2f8b2fe85e20510125806584531f104134e925b1668e6a57e46de8f"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "5876462a4405e8804241884ea67b4af2ca56ed562fb1bb65d1ffbd2f78a4e1891c69eee117e55d2a911666e0c25fd2208689c9f6002cfaf1739d0fee5af6e507"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-16-HEAD",
-      "fileName": "./.git/logs/HEAD",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "TEXT"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "10f3b5db9a610bbfd9b8578642431de18abc8810"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "121fdd81c23969244c93fb97661a1b0211f6609351fee16aac486e43a92e58cd"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "a2187f175c8424d3678295a34f2d04bf766f8040b153c43f0d03d936b753ad0db13e056eb54f16ba788f0185b469ec13cb0c9f693dadea8d0c077bd03330d45b"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-17-exclude",
+      "SPDXID": "SPDXRef-File-14-exclude",
       "fileName": "./.git/info/exclude",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -476,7 +395,61 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-18-post-update",
+      "SPDXID": "SPDXRef-File-15-HEAD",
+      "fileName": "./.git/logs/HEAD",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4eadd8a942584473e2c6922bcc8baec5600674ef"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "81bc8187f8435a43ddf90321cd02953808955d7ed978de045c32498623151ed0"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "4e40856affe173c57b9a90cfdc27e367556a5000b816070174ce0c72313edc637dc41911b6336e4ef68193f12c421a7d96af421ff1843891567e33239d323051"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-16-push-to-checkout",
+      "fileName": "./.git/hooks/push-to-checkout.sample",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "508240328c8b55f8157c93c43bf5e291e5d2fbcb"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "586efb6a206f73d8a94561266153a624e2753830bc431a283bed998c46ac00a9df4995ddfd0aa852b1a22b4672c80f2c33cee3fe2e3321e392ff4cef26dbf75e"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-17-post-update",
       "fileName": "./.git/hooks/post-update.sample",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -503,34 +476,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-19-prepare-commit-msg",
-      "fileName": "./.git/hooks/prepare-commit-msg.sample",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "TEXT"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "2584806ba147152ae005cb675aa4f01d5d068456"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "50ec8a0dd98427e80a82a8d8ce44462a845876e1594c9d0e89483ce9a8aaad616edea0e5c45c1bb69d8fe7f520c6f2260d6fa350d77b400899c3ae375e965bfb"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-20-applypatch-msg",
+      "SPDXID": "SPDXRef-File-18-applypatch-msg",
       "fileName": "./.git/hooks/applypatch-msg.sample",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -557,8 +503,8 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-21-pre-applypatch",
-      "fileName": "./.git/hooks/pre-applypatch.sample",
+      "SPDXID": "SPDXRef-File-19-commit-msg",
+      "fileName": "./.git/hooks/commit-msg.sample",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
@@ -571,20 +517,47 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "f208287c1a92525de9f5462e905a9d31de1e2d75"
+          "checksumValue": "ee1ed5aad98a435f2020b6de35c173b75d9affac"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+          "checksumValue": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "cb78aa7e9b9c146e5db65d86dd83f04e2b6942a06fab50c704a0fd900683f3b6ad1164e74afe2f267f6da91cdff0b9ab07713e12cefc6f8d741b5df194f4fda6"
+          "checksumValue": "d6bb7fa747f4625adf1877f546565cbe812ca7dd4168f7e9068e6732555d8737eba549546cf5946649e3f38de82d173aaf9c160a4c9f9445655258b4c5f955eb"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-22-pre-commit",
+      "SPDXID": "SPDXRef-File-20-prepare-commit-msg",
+      "fileName": "./.git/hooks/prepare-commit-msg.sample",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2584806ba147152ae005cb675aa4f01d5d068456"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "50ec8a0dd98427e80a82a8d8ce44462a845876e1594c9d0e89483ce9a8aaad616edea0e5c45c1bb69d8fe7f520c6f2260d6fa350d77b400899c3ae375e965bfb"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-21-pre-commit",
       "fileName": "./.git/hooks/pre-commit.sample",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -607,6 +580,33 @@
         {
           "algorithm": "SHA512",
           "checksumValue": "4fed684b7e262fc847610ca646074fca45c3c677c40d8fb6c7ae522b9c8a9be7327b41a59b4550ceadd41edf57ec5ed07e575e02dbc6c003951e1822ac3ddd5b"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-22-pre-rebase",
+      "fileName": "./.git/hooks/pre-rebase.sample",
+      "copyrightText": "(c) 2006, 2008 Junio C Hamano",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "288efdc0027db4cfd8b7c47c4aeddba09b6ded12"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "00d21d5d72386c3d9b5a1c36ba85201f730556a8295d4353af54af7892ab81010d42aff209ec1fda61c54e4dda3737cea5fda64f09d40ce5004ae28239565025"
         }
       ]
     },
@@ -638,115 +638,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-24-pre-push",
-      "fileName": "./.git/hooks/pre-push.sample",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "TEXT"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "a599b773b930ca83dbc3a5c7c13059ac4a6eaedc"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "cc98bbe0e3865e2023af04416e10689e3aecd3f3928cf90c2acc0d3d7306388886779025c8967c8ea198af1f4fe29d16c65d4e1d546c7a8fa513f5ba7df16850"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-25-push-to-checkout",
-      "fileName": "./.git/hooks/push-to-checkout.sample",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "TEXT"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "508240328c8b55f8157c93c43bf5e291e5d2fbcb"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "586efb6a206f73d8a94561266153a624e2753830bc431a283bed998c46ac00a9df4995ddfd0aa852b1a22b4672c80f2c33cee3fe2e3321e392ff4cef26dbf75e"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-26-sendemail-validate",
-      "fileName": "./.git/hooks/sendemail-validate.sample",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "TEXT"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "74cf1d5415a5c03c110240f749491297d65c4c98"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "a19dbbc2ef6c367aadbfb900ae58c377d88ac9b6c0ac6de49c962d44d993418875f64143defda56bae8d0697dcd15be2928d32aa77508d3958769f18a4a53154"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-27-commit-msg",
-      "fileName": "./.git/hooks/commit-msg.sample",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "TEXT"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "ee1ed5aad98a435f2020b6de35c173b75d9affac"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "d6bb7fa747f4625adf1877f546565cbe812ca7dd4168f7e9068e6732555d8737eba549546cf5946649e3f38de82d173aaf9c160a4c9f9445655258b4c5f955eb"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-28-pre-merge-commit",
+      "SPDXID": "SPDXRef-File-24-pre-merge-commit",
       "fileName": "./.git/hooks/pre-merge-commit.sample",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -773,34 +665,7 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-29-pre-rebase",
-      "fileName": "./.git/hooks/pre-rebase.sample",
-      "copyrightText": "(c) 2006, 2008 Junio C Hamano",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "TEXT"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "288efdc0027db4cfd8b7c47c4aeddba09b6ded12"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "00d21d5d72386c3d9b5a1c36ba85201f730556a8295d4353af54af7892ab81010d42aff209ec1fda61c54e4dda3737cea5fda64f09d40ce5004ae28239565025"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-30-update",
+      "SPDXID": "SPDXRef-File-25-update",
       "fileName": "./.git/hooks/update.sample",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -827,7 +692,61 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-31-fsmonitor-watchman",
+      "SPDXID": "SPDXRef-File-26-pre-push",
+      "fileName": "./.git/hooks/pre-push.sample",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a599b773b930ca83dbc3a5c7c13059ac4a6eaedc"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cc98bbe0e3865e2023af04416e10689e3aecd3f3928cf90c2acc0d3d7306388886779025c8967c8ea198af1f4fe29d16c65d4e1d546c7a8fa513f5ba7df16850"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-27-pre-applypatch",
+      "fileName": "./.git/hooks/pre-applypatch.sample",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "TEXT"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f208287c1a92525de9f5462e905a9d31de1e2d75"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "cb78aa7e9b9c146e5db65d86dd83f04e2b6942a06fab50c704a0fd900683f3b6ad1164e74afe2f267f6da91cdff0b9ab07713e12cefc6f8d741b5df194f4fda6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-28-fsmonitor-watchman",
       "fileName": "./.git/hooks/fsmonitor-watchman.sample",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -854,8 +773,8 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-32-main",
-      "fileName": "./.git/refs/heads/main",
+      "SPDXID": "SPDXRef-File-29-sendemail-validate",
+      "fileName": "./.git/hooks/sendemail-validate.sample",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
@@ -868,25 +787,25 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "fcb5d82549de11232e02c5c77f8ac5aa790c2441"
+          "checksumValue": "74cf1d5415a5c03c110240f749491297d65c4c98"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "7ee245013ef7cfc78acd9f7f578d236fc9d5e3305599f10ad4cf4c9223a534e0"
+          "checksumValue": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "83d5505f58201e1c1ce8ad80bc083067482eabb652c65bfd90d374cb4fdf4edf41503193c990b8859979801944dc5331ae457214b33e2cd099cc5c22745c4bb0"
+          "checksumValue": "a19dbbc2ef6c367aadbfb900ae58c377d88ac9b6c0ac6de49c962d44d993418875f64143defda56bae8d0697dcd15be2928d32aa77508d3958769f18a4a53154"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-33-main",
-      "fileName": "./.git/refs/remotes/origin/main",
+      "SPDXID": "SPDXRef-File-30-078937979ecc49b3f4eb65970e184636d608eb",
+      "fileName": "./.git/objects/57/078937979ecc49b3f4eb65970e184636d608eb",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
-        "TEXT"
+        "APPLICATION"
       ],
       "licenseInfoInFiles": [
         "NOASSERTION"
@@ -895,25 +814,25 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "fcb5d82549de11232e02c5c77f8ac5aa790c2441"
+          "checksumValue": "df2b9ae9f15851b05756950443098ee60a184055"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "7ee245013ef7cfc78acd9f7f578d236fc9d5e3305599f10ad4cf4c9223a534e0"
+          "checksumValue": "73048cd4950c6ee8e6ab801b01314b7a3a5ecc7230385f372b6aa301feb628c6"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "83d5505f58201e1c1ce8ad80bc083067482eabb652c65bfd90d374cb4fdf4edf41503193c990b8859979801944dc5331ae457214b33e2cd099cc5c22745c4bb0"
+          "checksumValue": "df19eb3e3b0753980bdc274378997a426f8f92dafa348d54d9f40a84816482adeac51d68784a8ee8d106ed2ff49d2a8f6df5529eaa5b0aafdc93adf3cb2ebeae"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-34-HEAD",
-      "fileName": "./.git/refs/remotes/origin/HEAD",
+      "SPDXID": "SPDXRef-File-31-9d4a1230dfedab3f74e28b8fbea2acf90aa3e2",
+      "fileName": "./.git/objects/95/9d4a1230dfedab3f74e28b8fbea2acf90aa3e2",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
-        "TEXT"
+        "APPLICATION"
       ],
       "licenseInfoInFiles": [
         "NOASSERTION"
@@ -922,25 +841,25 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "5ae7c22895c35af5f56ba1891a4dd62b4dc1f955"
+          "checksumValue": "88d5437b79fea19d69ac99e3dd144677e9a2c60b"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+          "checksumValue": "dbf1202b2ed9a876e67e55559b87c353570ce3d4f9c7efa21dfb11953ed8d088"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "9389d028754e6147cf04520f96de6d66cfa63e165eb8dd3069a900d9b6f4fde76e144e76afdf8a9af2e0f0988c0c674fe58a8d0662d63c0c634a284bbcc6d3c2"
+          "checksumValue": "a982deaa451238b67ecedf60cb3df995a9fa349e2e8700d6b83c369498623dd2d0ec69b01539b476134ec1ea406d6687a8502cffed4d64b2a7cbe95f9aa33315"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-35-main",
-      "fileName": "./.git/logs/refs/heads/main",
+      "SPDXID": "SPDXRef-File-32-c2ad7f6a276f980123c26b16909b4ad934052f",
+      "fileName": "./.git/objects/38/c2ad7f6a276f980123c26b16909b4ad934052f",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
-        "TEXT"
+        "APPLICATION"
       ],
       "licenseInfoInFiles": [
         "NOASSERTION"
@@ -949,25 +868,25 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "b6d5ed9faf22b57eaf01bd65b5af04984acb8dac"
+          "checksumValue": "9f31b98c799e0aafcd6edefcc8866a0f8fd38576"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "d1aa7ad423d45c79249d0e023a2052fe7f4dd3dfff801da0183cd3bf255c306c"
+          "checksumValue": "a9419ce198c7eb784e589b9b09dcbe131a50991c534098e24e010f88d686ce42"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "00384cb110d57e8d02aebf9f4b59e76a66c1bed9f78449674154b5698f9c27c96968e926459965e675dfe9b7358c300a413c5a897527cf555fe8a7cb7412a58d"
+          "checksumValue": "e152a506f75d5db69d4142b844c6702e31fea17416de8c191defcbdf7e82df2c19aa340f6c71c0dbfd0c71a67f4039cf434ed4291c242d9de57586c4dd2ef2fb"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-36-main",
-      "fileName": "./.git/logs/refs/remotes/origin/main",
+      "SPDXID": "SPDXRef-File-33-fa6c5d5571cf65a92f23da1480c031e30be6c7",
+      "fileName": "./.git/objects/3a/fa6c5d5571cf65a92f23da1480c031e30be6c7",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
-        "TEXT"
+        "APPLICATION"
       ],
       "licenseInfoInFiles": [
         "NOASSERTION"
@@ -976,47 +895,20 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "5fb5ea5830b1d1038abf0da3e8ad364bd1c0f3dc"
+          "checksumValue": "4041017104d723015a62d41129b09bef97418cb6"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "b707d8af45cf0dba42492757f9352da974cefa7b6d9a84951d7584f6d18756dc"
+          "checksumValue": "8b636ce51b8d8306d6df1bf855a10d6b8d4eaa88e4503f32553b874d1887d7d5"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "fb2607440325300b7d4402b10f105bce416b5007ab9bf452280ecf5b7dce87584a76ee712643146fcda74ce223abb5a402da658cdd51000dd9756b938d2621bb"
+          "checksumValue": "ca4c3b6b36adce4225da4f9a05fe420332ef166ee023ed02c46d1d427dc73779dbc0764eed4265f13b936bea41ea1bd1e4ab7d4e5f74292229303c828ab8b6ef"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-37-HEAD",
-      "fileName": "./.git/logs/refs/remotes/origin/HEAD",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
-      "fileTypes": [
-        "TEXT"
-      ],
-      "licenseInfoInFiles": [
-        "NOASSERTION"
-      ],
-      "licenseComments": "Unable to determine license from the file.",
-      "checksums": [
-        {
-          "algorithm": "SHA1",
-          "checksumValue": "aa552d2ef05e15e953618bfae09584b14eb79caa"
-        },
-        {
-          "algorithm": "SHA256",
-          "checksumValue": "aa7ebf015eddeabba442be23147e9d5099149aa73157f578de4eb992ace0f752"
-        },
-        {
-          "algorithm": "SHA512",
-          "checksumValue": "3f950fe43c912814bffb5c5c9001f22c34abed1d2444cebbab0a5883caa1bb495da908b2953033a445f6419b234908303bef5fb4d12164446d295061d9a3e8cb"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-File-38-f99b0b9eba306ed9838c0e0d8303aa77d05641",
+      "SPDXID": "SPDXRef-File-34-f99b0b9eba306ed9838c0e0d8303aa77d05641",
       "fileName": "./.git/objects/96/f99b0b9eba306ed9838c0e0d8303aa77d05641",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -1043,7 +935,61 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-39-3d09d8963001a6d478e07eb01c9f7bc98f2320",
+      "SPDXID": "SPDXRef-File-35-819056dd675bf1ce9737ec66ded4936cbabe4f",
+      "fileName": "./.git/objects/0e/819056dd675bf1ce9737ec66ded4936cbabe4f",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4ba410e6c87e15b62b41afbf634bfef3be6d9f4e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "99b3a48135aa0542ed9d1f361326037ec7dac30daefb9f14cad5731febc68c63"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "3d0a5d62e86186046d662c82fa0c9cd6347e6186c4036bddb6ecc4a7a18c64d4ef98294dff0c8b005ffbc9c81cb42a3ce4e7bfe510e520088f1a0445e557d6ee"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-36-786672a45d6593e664c1e78f2fea39231faf42",
+      "fileName": "./.git/objects/06/786672a45d6593e664c1e78f2fea39231faf42",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "88a7bfee5bfcea81d8905c3a4efddb132eece010"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5a17309500ae5d4a669fe26e7c7a5ba6afab7ac78396feb5bb1f5477372fa205"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "b8499f762407628922e109dc510229ce7b7a33d26b1c79e7717aea800259e5d6c21f08929fb56c2902426ca10211d587cc96888c6d11db8eb90ee7643b4e8701"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-37-3d09d8963001a6d478e07eb01c9f7bc98f2320",
       "fileName": "./.git/objects/4d/3d09d8963001a6d478e07eb01c9f7bc98f2320",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
@@ -1070,8 +1016,8 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-40-2f27dae3ff602e42409ca52233d22d18342116",
-      "fileName": "./.git/objects/27/2f27dae3ff602e42409ca52233d22d18342116",
+      "SPDXID": "SPDXRef-File-38-810f2cd05a25b430dd3e69ff1a57092982bfe4",
+      "fileName": "./.git/objects/82/810f2cd05a25b430dd3e69ff1a57092982bfe4",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
@@ -1084,21 +1030,21 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "de6e62f8691e6c81fd192ec202fa272a317600de"
+          "checksumValue": "52a6109b01cb698355ad798f0cede298580ced93"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "9ccc9460f97436c867665e996fbfd1994c1e6955ca149bb4ee3987f03b629a2a"
+          "checksumValue": "19b9695632cbdece4fcbdd840dd18665d8b2635401e52fa503e11840a058df00"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "92f391b34374a661fc59237966e289641168abc622add580d04def008ddf43b3f9c67dee32e7316f9ccca8e6d7ee2c03441a36fbedf4032912ad08ac12604e6a"
+          "checksumValue": "f6d31b1d647e0b487493d71b10979d8c1263075a9265022cb1c3ecc5f03fec7896276724572b9dbd95bd5e96c67f7c876f9e4b1bf8fbc4a0a238cf0424770ea2"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-41-bd5f6c6c013cc5dd9a005c00eb9a1281c0479c",
-      "fileName": "./.git/objects/5f/bd5f6c6c013cc5dd9a005c00eb9a1281c0479c",
+      "SPDXID": "SPDXRef-File-39-d8bf4468b774bb359492223bbdcbe7051243ed",
+      "fileName": "./.git/objects/dd/d8bf4468b774bb359492223bbdcbe7051243ed",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
@@ -1111,15 +1057,69 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "a52c313259571ad32558994641a86d02d823e8d4"
+          "checksumValue": "b750d9e7931b354ea1dac744b0d90f73772f10e0"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "aa4ef7d846fbd0f7d323949b6bb6a870cf912b0618e3682177f57cd2d497850c"
+          "checksumValue": "640435b97a96b2898f2f726a512923cec551d35cfb585c15213055e011505786"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "4a9c45d13df8dce0dd863f0a4523d214779300ba8855fff6f009e9c94909ac99285c9a209de94c7ea8c8718abdba82063fe49eb708b560a148d66581f9cbaecc"
+          "checksumValue": "a254644b679153cbae282d72d225b175d98f19abb74dd2847ee97b726d7f9a1d3b3ecd6ffe09cc3125953a8264d8fab3e03a73584988789c5051e85615510c1a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-40-4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
+      "fileName": "./.git/objects/e8/4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4753bb132e8b4ef4235cae8b914ef075a9cb1f2c"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "719007feb4d00956e21bc8e106258fb794e9af6f518ce5eb5e93d68a9dd922e5"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "2ffa756baa8b384170dc2d2d971975f2db1118eff15d5af2a5affe575ee14c136f44ea7f9570cc76da68d437608e113aee00fb264d8bef7ec538e448f6246dfa"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-41-fe005fc9b03224256d062c423cbc3be0fb8839",
+      "fileName": "./.git/objects/56/fe005fc9b03224256d062c423cbc3be0fb8839",
+      "copyrightText": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "fileTypes": [
+        "APPLICATION"
+      ],
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "licenseComments": "Unable to determine license from the file.",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0b72a05187d834df397cb122a4062ca2086141f3"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "26b9fe8c9f3a1ad707567cd519edbe7904b02887529a205c20ffc879431f3462"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "e9e01ee739b1e3b4b286109c6b073af7720c174790e66fd12dbf42273960b1048eb6c6a5a332da1641a06f112588551d41c35c76fd41664bfdc203e35f6c1d98"
         }
       ]
     },
@@ -1151,8 +1151,8 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-43-e97ea969134e2df9bf61c8de6b914d7be3dcbb",
-      "fileName": "./.git/objects/74/e97ea969134e2df9bf61c8de6b914d7be3dcbb",
+      "SPDXID": "SPDXRef-File-43-755055dce71ad4508ddcbca35cc7c6c7112192",
+      "fileName": "./.git/objects/bc/755055dce71ad4508ddcbca35cc7c6c7112192",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
@@ -1165,25 +1165,25 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "17736fc11133761475ee53fbcf11d11f1189cec3"
+          "checksumValue": "18a07fb0333a4b19a063e4c32c1a0fa5a31981b0"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "2900e961d4c8f1e4ee74e0e3e729266729e879a2ee7aef91704e00fd7f4ce019"
+          "checksumValue": "25aa3867463d621154d9e725a3aef511c27e6a820d7a635fc5ce8ffb9c740820"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "d1d5430639b818c2e93d84a26326712f3adab24d4acaa8d926fc3bb98d0463fd6a51b776a376deb5b365e77e5e0fd7be2f16be817acd7f651cc5db9fb706d7b1"
+          "checksumValue": "f4280e935711104b52f29070506e8b8503e4efd65f4890aed508763c4dba863eb8bf4e919b026c82cd006ad5ba5ef6893cbe83b32589f2ce4588ce7fc4d6f058"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-44-4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
-      "fileName": "./.git/objects/e8/4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
+      "SPDXID": "SPDXRef-File-44-main",
+      "fileName": "./.git/logs/refs/heads/main",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
-        "APPLICATION"
+        "TEXT"
       ],
       "licenseInfoInFiles": [
         "NOASSERTION"
@@ -1192,25 +1192,25 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "4753bb132e8b4ef4235cae8b914ef075a9cb1f2c"
+          "checksumValue": "8672aa5978f5c6cf896dffcb1d528536663987c9"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "719007feb4d00956e21bc8e106258fb794e9af6f518ce5eb5e93d68a9dd922e5"
+          "checksumValue": "ebc130391da3ab48767d45bfafba7505900eb678815e039545ce9fd8fcb283d3"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "2ffa756baa8b384170dc2d2d971975f2db1118eff15d5af2a5affe575ee14c136f44ea7f9570cc76da68d437608e113aee00fb264d8bef7ec538e448f6246dfa"
+          "checksumValue": "b3ebb172d069a5d741b2881c2daf8b30914f6c95a84296c14fb4b06ad3f3fcfbdeaa2a58ef38de472481d9f0a6d3da72800799e4c0b16ef63810a7621a3e005a"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-45-d01a968549a7af79c801761dc4524883cce24e",
-      "fileName": "./.git/objects/3f/d01a968549a7af79c801761dc4524883cce24e",
+      "SPDXID": "SPDXRef-File-45-main",
+      "fileName": "./.git/logs/refs/remotes/origin/main",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
-        "APPLICATION"
+        "TEXT"
       ],
       "licenseInfoInFiles": [
         "NOASSERTION"
@@ -1219,25 +1219,25 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "7cfc25cecf2c20d2e9908453b2b652a01d3e8bdc"
+          "checksumValue": "bcdf52ad26712b1ce7baa57eef143bdce165349c"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "3630eda22e6e2f6ec766fb4928fa48ffaef869eaa3f3f49ff61b5274c2faf374"
+          "checksumValue": "4a194f22a3755fd9a4b08f5c15f67d29890209b6b5080a54f354b800b668c298"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "4a0a27cbe1cdba997cf2ce41659861f1bfe09bb8201b54020ff171bd71ccc9110e869e52fdb33096e7fb2d71bae9845420d232fd9ec043ec37a64a0b6dcc89ce"
+          "checksumValue": "896eb942e6a3c8cf6158e90800cc16606d3316a7893e5ba265e1ebe325a96d36b6fdebc8f3879385848c50a3fdf030bad9df1b771aae3f62d6d06ec96a73a5a1"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-46-959388e77c546b2a13a3521802b285e1b6deb3",
-      "fileName": "./.git/objects/2d/959388e77c546b2a13a3521802b285e1b6deb3",
+      "SPDXID": "SPDXRef-File-46-HEAD",
+      "fileName": "./.git/logs/refs/remotes/origin/HEAD",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
-        "APPLICATION"
+        "TEXT"
       ],
       "licenseInfoInFiles": [
         "NOASSERTION"
@@ -1246,25 +1246,25 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "84fa9c2a8bab26dc4ae52bdbad0a4097be15c21e"
+          "checksumValue": "53d2ff0597e53c4471b2a19ca228db7b87cd8c83"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "a907120b0eb2f14141a45fce9acad602e4b5ab5b47e0c59e0048664b6802bb6e"
+          "checksumValue": "1625df35ab94a93b22ac15d9ea538c7bbec4c3322db1059086dc6092d27bb944"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "47c92c07a02bedd8b97f66f3f1503370e700977704a11f66ffa266f2407192b98fc23db00dafd423d9cb39fcfb9661d5355f4387059dba71dc611b7dd4f27c4d"
+          "checksumValue": "525c32f75df0a252a097e0d293c334e57781258b6c622c127c7693e622c4ea231da94935bea533c87d814463dcbc63dfe3db9eb445d3e91971b9ca26cac7da27"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-47-e21abd8c09575b824d767f8fb07346e6e61207",
-      "fileName": "./.git/objects/fa/e21abd8c09575b824d767f8fb07346e6e61207",
+      "SPDXID": "SPDXRef-File-47-main",
+      "fileName": "./.git/refs/heads/main",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
-        "APPLICATION"
+        "TEXT"
       ],
       "licenseInfoInFiles": [
         "NOASSERTION"
@@ -1273,25 +1273,25 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "4201b34d9267bfbec715cd6f800520fd052cf7ac"
+          "checksumValue": "2baadcd8920970e9c6b526153483b088023d41c7"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "5ae2106a4519e4b16c336c9b7d2235c9b6570855b43598958cadcc90ac1e5801"
+          "checksumValue": "314d396e6e704c6f17e95da712c958ab3f28a1665c5cc19501ad63c8cfb1b904"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "a0f09d426b3ab03766127b41295c83e3cc5dc494bcd2b841e52e8095f5aa6def1a10b67d6cb239d411d17cfad10a53c5ec97be63707a03106ea19d69b3652e52"
+          "checksumValue": "d13e7dd433340235d256d7e32c20b7552eb68d00d60598f64c805168bfeef55caca008a6b76f3520ab8d6ffdbb711af00f98aa5825ccfb94d078a6550ec2693e"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-48-08a21eb6b83eff6327fa5a281575293cf4530f",
-      "fileName": "./.git/objects/f0/08a21eb6b83eff6327fa5a281575293cf4530f",
+      "SPDXID": "SPDXRef-File-48-main",
+      "fileName": "./.git/refs/remotes/origin/main",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
-        "APPLICATION"
+        "TEXT"
       ],
       "licenseInfoInFiles": [
         "NOASSERTION"
@@ -1300,25 +1300,25 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "b12c04b929a2aaf5a3b60c102131b71ee74c1a35"
+          "checksumValue": "2baadcd8920970e9c6b526153483b088023d41c7"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "8999f13581bd70d65093b0367bee5f1c719c5a4d45ecd3f07828bf5f531a7901"
+          "checksumValue": "314d396e6e704c6f17e95da712c958ab3f28a1665c5cc19501ad63c8cfb1b904"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "11eef65a04908cfec39316b24b6a7ec731bf5f7f9b2043107eb589fc5bbfaae1a98587909d2e23c14a0baa88f40249a7e2a619ff118f8e11c0a172dee68cf567"
+          "checksumValue": "d13e7dd433340235d256d7e32c20b7552eb68d00d60598f64c805168bfeef55caca008a6b76f3520ab8d6ffdbb711af00f98aa5825ccfb94d078a6550ec2693e"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-49-d8bf4468b774bb359492223bbdcbe7051243ed",
-      "fileName": "./.git/objects/dd/d8bf4468b774bb359492223bbdcbe7051243ed",
+      "SPDXID": "SPDXRef-File-49-HEAD",
+      "fileName": "./.git/refs/remotes/origin/HEAD",
       "copyrightText": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
       "fileTypes": [
-        "APPLICATION"
+        "TEXT"
       ],
       "licenseInfoInFiles": [
         "NOASSERTION"
@@ -1327,69 +1327,69 @@
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "b750d9e7931b354ea1dac744b0d90f73772f10e0"
+          "checksumValue": "5ae7c22895c35af5f56ba1891a4dd62b4dc1f955"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "640435b97a96b2898f2f726a512923cec551d35cfb585c15213055e011505786"
+          "checksumValue": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "a254644b679153cbae282d72d225b175d98f19abb74dd2847ee97b726d7f9a1d3b3ecd6ffe09cc3125953a8264d8fab3e03a73584988789c5051e85615510c1a"
+          "checksumValue": "9389d028754e6147cf04520f96de6d66cfa63e165eb8dd3069a900d9b6f4fde76e144e76afdf8a9af2e0f0988c0c674fe58a8d0662d63c0c634a284bbcc6d3c2"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-50-819056dd675bf1ce9737ec66ded4936cbabe4f",
-      "fileName": "./.git/objects/0e/819056dd675bf1ce9737ec66ded4936cbabe4f",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
+      "SPDXID": "SPDXRef-File-50-sbom-generator",
+      "fileName": "./.github/workflows/sbom-generator.yml",
+      "copyrightText": "Copyright  2025 David Osipov  <personal@david-osipov.vision> (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)",
+      "licenseConcluded": "GPL-3.0-or-later",
       "fileTypes": [
-        "APPLICATION"
+        "TEXT"
       ],
       "licenseInfoInFiles": [
-        "NOASSERTION"
+        "GPL-3.0-or-later"
       ],
-      "licenseComments": "Unable to determine license from the file.",
+      "licenseComments": "This information was automatically extracted from the file.",
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "4ba410e6c87e15b62b41afbf634bfef3be6d9f4e"
+          "checksumValue": "311f90bfb86dea871d507a1aea877b4c34d5f650"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "99b3a48135aa0542ed9d1f361326037ec7dac30daefb9f14cad5731febc68c63"
+          "checksumValue": "5a8efa20066dd2380d40d2e4bb26b63a400b4b97576724bd44cb48ed3ffbb354"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "3d0a5d62e86186046d662c82fa0c9cd6347e6186c4036bddb6ecc4a7a18c64d4ef98294dff0c8b005ffbc9c81cb42a3ce4e7bfe510e520088f1a0445e557d6ee"
+          "checksumValue": "c2c53efd902df1907bf3c770456ce623464e01c710a06dafd7df6eef79d6d0f96438b5a7952d3244cf3148af57f4b7eb4b20a7afc91185ba367187833c939de4"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-File-51-c2ad7f6a276f980123c26b16909b4ad934052f",
-      "fileName": "./.git/objects/38/c2ad7f6a276f980123c26b16909b4ad934052f",
-      "copyrightText": "NOASSERTION",
-      "licenseConcluded": "NOASSERTION",
+      "SPDXID": "SPDXRef-File-51-sbom-verify",
+      "fileName": "./.github/workflows/sbom-verify.yml",
+      "copyrightText": "Copyright  2025 David Osipov  <personal@david-osipov.vision> (ORCID: 0009-0005-2713-9242, ISNI: 0000 0005 1802 960X)",
+      "licenseConcluded": "GPL-3.0-or-later",
       "fileTypes": [
-        "APPLICATION"
+        "TEXT"
       ],
       "licenseInfoInFiles": [
-        "NOASSERTION"
+        "GPL-3.0-or-later"
       ],
-      "licenseComments": "Unable to determine license from the file.",
+      "licenseComments": "This information was automatically extracted from the file.",
       "checksums": [
         {
           "algorithm": "SHA1",
-          "checksumValue": "9f31b98c799e0aafcd6edefcc8866a0f8fd38576"
+          "checksumValue": "d0cdbc995af3073b2c0a641623fd4c82e2cb0439"
         },
         {
           "algorithm": "SHA256",
-          "checksumValue": "a9419ce198c7eb784e589b9b09dcbe131a50991c534098e24e010f88d686ce42"
+          "checksumValue": "c4cf99dcb163e4e524319ebb0f3f6edce02a3b4b59f140af517e7255788dc48e"
         },
         {
           "algorithm": "SHA512",
-          "checksumValue": "e152a506f75d5db69d4142b844c6702e31fea17416de8c191defcbdf7e82df2c19aa340f6c71c0dbfd0c71a67f4039cf434ed4291c242d9de57586c4dd2ef2fb"
+          "checksumValue": "0c1f73a7192910253d2fcf6693901399ea5a18b1852230db60a89fe7d178cd2da5ffe1acc7fa8f569b8cf668fa1c85c9d6c5b0c32ca8424c1aeec538efd2dcba"
         }
       ]
     }
@@ -1407,22 +1407,22 @@
   "relationships": [
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-1-LICENSE",
+      "relatedSpdxElement": "SPDXRef-File-1-renovate",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-10-index",
+      "relatedSpdxElement": "SPDXRef-File-10-HEAD",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-11-shallow",
+      "relatedSpdxElement": "SPDXRef-File-11-index",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-12-HEAD",
+      "relatedSpdxElement": "SPDXRef-File-12-.git-FETCH-HEAD",
       "relationshipType": "CONTAINS"
     },
     {
@@ -1432,52 +1432,52 @@
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-14-sbom-verify",
+      "relatedSpdxElement": "SPDXRef-File-14-exclude",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-15-sbom-generator",
+      "relatedSpdxElement": "SPDXRef-File-15-HEAD",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-16-HEAD",
+      "relatedSpdxElement": "SPDXRef-File-16-push-to-checkout",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-17-exclude",
+      "relatedSpdxElement": "SPDXRef-File-17-post-update",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-18-post-update",
+      "relatedSpdxElement": "SPDXRef-File-18-applypatch-msg",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-19-prepare-commit-msg",
+      "relatedSpdxElement": "SPDXRef-File-19-commit-msg",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-2-README",
+      "relatedSpdxElement": "SPDXRef-File-2-sbom.spdx",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-20-applypatch-msg",
+      "relatedSpdxElement": "SPDXRef-File-20-prepare-commit-msg",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-21-pre-applypatch",
+      "relatedSpdxElement": "SPDXRef-File-21-pre-commit",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-22-pre-commit",
+      "relatedSpdxElement": "SPDXRef-File-22-pre-rebase",
       "relationshipType": "CONTAINS"
     },
     {
@@ -1487,102 +1487,102 @@
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-24-pre-push",
+      "relatedSpdxElement": "SPDXRef-File-24-pre-merge-commit",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-25-push-to-checkout",
+      "relatedSpdxElement": "SPDXRef-File-25-update",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-26-sendemail-validate",
+      "relatedSpdxElement": "SPDXRef-File-26-pre-push",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-27-commit-msg",
+      "relatedSpdxElement": "SPDXRef-File-27-pre-applypatch",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-28-pre-merge-commit",
+      "relatedSpdxElement": "SPDXRef-File-28-fsmonitor-watchman",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-29-pre-rebase",
+      "relatedSpdxElement": "SPDXRef-File-29-sendemail-validate",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-3-requirements",
+      "relatedSpdxElement": "SPDXRef-File-3-README",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-30-update",
+      "relatedSpdxElement": "SPDXRef-File-30-078937979ecc49b3f4eb65970e184636d608eb",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-31-fsmonitor-watchman",
+      "relatedSpdxElement": "SPDXRef-File-31-9d4a1230dfedab3f74e28b8fbea2acf90aa3e2",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-32-main",
+      "relatedSpdxElement": "SPDXRef-File-32-c2ad7f6a276f980123c26b16909b4ad934052f",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-33-main",
+      "relatedSpdxElement": "SPDXRef-File-33-fa6c5d5571cf65a92f23da1480c031e30be6c7",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-34-HEAD",
+      "relatedSpdxElement": "SPDXRef-File-34-f99b0b9eba306ed9838c0e0d8303aa77d05641",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-35-main",
+      "relatedSpdxElement": "SPDXRef-File-35-819056dd675bf1ce9737ec66ded4936cbabe4f",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-36-main",
+      "relatedSpdxElement": "SPDXRef-File-36-786672a45d6593e664c1e78f2fea39231faf42",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-37-HEAD",
+      "relatedSpdxElement": "SPDXRef-File-37-3d09d8963001a6d478e07eb01c9f7bc98f2320",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-38-f99b0b9eba306ed9838c0e0d8303aa77d05641",
+      "relatedSpdxElement": "SPDXRef-File-38-810f2cd05a25b430dd3e69ff1a57092982bfe4",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-39-3d09d8963001a6d478e07eb01c9f7bc98f2320",
+      "relatedSpdxElement": "SPDXRef-File-39-d8bf4468b774bb359492223bbdcbe7051243ed",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-4-sbom.spdx",
+      "relatedSpdxElement": "SPDXRef-File-4-LICENSE",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-40-2f27dae3ff602e42409ca52233d22d18342116",
+      "relatedSpdxElement": "SPDXRef-File-40-4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-41-bd5f6c6c013cc5dd9a005c00eb9a1281c0479c",
+      "relatedSpdxElement": "SPDXRef-File-41-fe005fc9b03224256d062c423cbc3be0fb8839",
       "relationshipType": "CONTAINS"
     },
     {
@@ -1592,57 +1592,57 @@
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-43-e97ea969134e2df9bf61c8de6b914d7be3dcbb",
+      "relatedSpdxElement": "SPDXRef-File-43-755055dce71ad4508ddcbca35cc7c6c7112192",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-44-4d390e8473094f6f4ec7c2295cfab38dc2e2a5",
+      "relatedSpdxElement": "SPDXRef-File-44-main",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-45-d01a968549a7af79c801761dc4524883cce24e",
+      "relatedSpdxElement": "SPDXRef-File-45-main",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-46-959388e77c546b2a13a3521802b285e1b6deb3",
+      "relatedSpdxElement": "SPDXRef-File-46-HEAD",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-47-e21abd8c09575b824d767f8fb07346e6e61207",
+      "relatedSpdxElement": "SPDXRef-File-47-main",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-48-08a21eb6b83eff6327fa5a281575293cf4530f",
+      "relatedSpdxElement": "SPDXRef-File-48-main",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-49-d8bf4468b774bb359492223bbdcbe7051243ed",
+      "relatedSpdxElement": "SPDXRef-File-49-HEAD",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-5-renovate",
+      "relatedSpdxElement": "SPDXRef-File-5-requirements",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-50-819056dd675bf1ce9737ec66ded4936cbabe4f",
+      "relatedSpdxElement": "SPDXRef-File-50-sbom-generator",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-51-c2ad7f6a276f980123c26b16909b4ad934052f",
+      "relatedSpdxElement": "SPDXRef-File-51-sbom-verify",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-6-config",
+      "relatedSpdxElement": "SPDXRef-File-6-description",
       "relationshipType": "CONTAINS"
     },
     {
@@ -1652,12 +1652,12 @@
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-8-.git-FETCH-HEAD",
+      "relatedSpdxElement": "SPDXRef-File-8-config",
       "relationshipType": "CONTAINS"
     },
     {
       "spdxElementId": "SPDXRef-1-DavidOsipov-David-Osipov-AI-Assisted-Meta-Research-Repository-files",
-      "relatedSpdxElement": "SPDXRef-File-9-description",
+      "relatedSpdxElement": "SPDXRef-File-9-shallow",
       "relationshipType": "CONTAINS"
     },
     {
